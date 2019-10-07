@@ -23,7 +23,8 @@ p {
 }
 
 h2 {
-    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
 p {
@@ -135,7 +136,8 @@ footer h2 {
 }
 
 .banner,
-.contact-info p {
+.contact-info p,
+.skills p {
     font-size: 1.2rem;
 }
 
@@ -146,15 +148,13 @@ footer h2 {
 
 .portfolio .project {
     width: 100%;
-    margin: auto;
-    padding: 15px;
+    margin: 0 auto 30px;
+    padding: 15px; 
 }
 
 .project {
     vertical-align: top;
     border-radius: 10px;
-    margin: 25px 25px 30px 25px;
-    height: 40vh;
 }
 
 .project:hover {
@@ -171,7 +171,13 @@ footer h2 {
     padding: 15px 0;
 }
 
-.contact-info {
+.skills img {
+    width: 20%;
+    margin: 5px;
+}
+
+.contact-info,
+.skills {
     padding: 5rem 0;
 }
 
@@ -193,7 +199,7 @@ footer h2 {
 
     /* ---- Base Element Styles ---- */
     h2 {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     h3 {
@@ -224,6 +230,14 @@ footer h2 {
         margin: 0 3px;
     }
 
+    .sm-footer-nav {
+        display: none;
+    }
+
+    .md-lg-footer-nav {
+        display: initial;
+    }
+
     /* ---- Layout Containers ---- */
 
     .banner {
@@ -243,7 +257,7 @@ footer h2 {
     }
 
     .portfolio {
-        background-color: #eeeeee;
+        background-color: rgba(243, 243, 243, 0.9);
     }
 
     .portfolio .project {
@@ -267,14 +281,18 @@ footer h2 {
     .project p {
         padding: 0;
         height: 1em;
+        /* min-height: 100%; */
     }
 
-    .sm-footer-nav {
-        display: none;
+
+    .skills img {
+        width: 8%;
+        margin: 10px;
     }
 
-    .md-lg-footer-nav {
-        display: initial;
+    .contact-info,
+    .skills {
+        padding: 2rem 0;
     }
 
 }
@@ -304,7 +322,7 @@ footer h2 {
     }
 
     .main-nav li {
-        padding: 10 20px;
+        padding: 10px 20px;
         margin: 0 5px;
     }
 
@@ -326,6 +344,10 @@ footer h2 {
 
     .project p {
         max-width: 1200px;
+    }
+
+    .project {
+        min-height: 45vh;
     }
 
 }
