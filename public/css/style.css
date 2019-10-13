@@ -268,7 +268,7 @@ footer h2 {
 
     .project {
         border-radius: 10px;
-        height: 38vh;
+        min-height: 48vh;
         box-shadow: 0 0 8px 0 #7e7e7e;
         background-color: #fff;
     }
@@ -281,7 +281,6 @@ footer h2 {
     .project p {
         padding: 0;
         height: 1em;
-        /* min-height: 100%; */
     }
 
 
