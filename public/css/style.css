@@ -155,6 +155,7 @@ footer h2 {
 .project {
     vertical-align: top;
     border-radius: 10px;
+    transition: all .2s ease-in-out;
 }
 
 .project:hover {
